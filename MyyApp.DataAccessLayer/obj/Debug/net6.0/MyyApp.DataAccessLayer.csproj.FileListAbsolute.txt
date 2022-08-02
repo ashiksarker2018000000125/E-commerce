@@ -1,0 +1,15 @@
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyyApp.DataAccessLayer.deps.json
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyyApp.DataAccessLayer.dll
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyyApp.DataAccessLayer.pdb
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.Models.dll
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.Models.pdb
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.csproj.CopyComplete
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.dll
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\refint\MyyApp.DataAccessLayer.dll
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.pdb
+C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\ref\MyyApp.DataAccessLayer.dll

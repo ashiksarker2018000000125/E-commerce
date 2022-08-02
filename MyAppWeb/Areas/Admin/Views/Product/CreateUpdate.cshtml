@@ -1,0 +1,83 @@
+﻿@model  MyApp.Models.ViewModels.ProductVM
+@{
+    ViewData["Title"] = ((Model.ProductDb==null || Model.ProductDb.Id==0) ? "Create":"Update" );
+}
+<form method="post" enctype="multipart/form-data">
+    <div class="border p-3 mt-4">
+        <div class="row pb-3">
+            <h2 class="text-primary"> @((Model.ProductDb==null || Model.ProductDb.Id==0) ? "Create":"Update" ) Product</h2>
+            <hr />
+        </div>
+        <div class="row mb-3">
+            <label asp-for="ProductDb.Name"></label>
+            <input  asp-for="ProductDb.Name" class="form-control"/>
+            <span asp-validation-for="ProductDb.Name" class="text-danger"></span>
+        </div>
+         <div class="row mb-3">
+            <label asp-for="ProductDb.Description"></label>
+            <textarea  asp-for="ProductDb.Description" class="form-control"> </textarea>
+            <span asp-validation-for="ProductDb.Description" class="text-danger"></span>
+        </div>
+         <div class="row mb-3">
+            <label asp-for="ProductDb.Price"></label>
+            <input  asp-for="ProductDb.Price" class="form-control"/>
+            <span asp-validation-for="ProductDb.Price" class="text-danger"></span>
+        </div>
+        <div class="row mb-3">
+            <label asp-for="ProductDb.ImageUrl"></label>
+            <input type="file" name="file" id="ImageFile" class="form-select"/>
+        </div>
+         <div class="row mb-3">
+            <label asp-for="ProductDb.CategoryId"></label>
+            <select asp-for="ProductDb.CategoryId" asp-items="Model.Categories" class="form-control">
+                <option selected disabled> --Select Category --</option>
+            </select>
+            <span asp-validation-for="ProductDb.CategoryId" class="text-danger"></span>
+        </div>
+
+       @* ViewBag Diye selectlist show
+        <div class="row mb-3">
+             <label asp-for="ProductDb.CategoryId"></label>
+            <select asp-for="ProductDb.CategoryId" asp-items="ViewBag.list" class="form-control">
+                <option selected disabled> --Select Category --</option>
+            </select>
+            <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+        </div>*@
+
+
+        @if (Model.ProductDb == null || Model.ProductDb.Id == 0)
+        {
+            <button class="btn btn-primary" type="submit" onclick="return ValidateEmpty()"> Create </button>
+        }
+        else
+        {
+            <button class="btn btn-primary" type="submit"> Update </button>
+        }
+        <a class="btn btn-danger" style="margin-left:10px;" asp-controller="Product" asp-action="Index"> Cancle</a>
+    </div>
+
+</form>
+
+@section scripts{
+    @{
+            <partial name="_ValidationScriptsPartial"></partial>
+    }
+    <script>
+        function ValidateEmpty()
+        {
+            if (document.getElementById("ImageFile").value == "") 
+            
+            {
+                Swal.fire({
+                  icon: 'error',
+                  title: 'Oops...',
+                  text: 'Upload Image',
+                  
+                })
+                return false
+            }
+            return true
+        }
+    </script>
+}
+
