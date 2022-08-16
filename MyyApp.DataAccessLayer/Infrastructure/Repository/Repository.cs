@@ -20,6 +20,7 @@ namespace MyyApp.DataAccessLayer.Infrastructure.Repository
         public Repository(ApplicationDbContext context)
         {
             _context = context;
+            //_context.ProductDbs.Include(x => x.Category);
             _dbSet = _context.Set<T>();
         }
 
@@ -38,14 +39,26 @@ namespace MyyApp.DataAccessLayer.Infrastructure.Repository
             _dbSet.RemoveRange(entity);
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
+            IQueryable<T> query = _dbSet;
+            if(includeProperties != null)
+            {
+                query = query.Include(includeProperties);
+                return query.ToList();
+            }
             return _dbSet.ToList();
         }
 
-        public T GetT(Expression<Func<T, bool>> predicate)
+        public T GetT(Expression<Func<T, bool>> predicate, string? includeProperties = null)
         {
-            return _dbSet.Where(predicate).FirstOrDefault();
+            IQueryable<T> query = _dbSet;
+            query = query.Where(predicate);
+            if(includeProperties != null)
+            {
+                query = query.Include(includeProperties);
+            }
+            return query.FirstOrDefault();
         }
     }
 }

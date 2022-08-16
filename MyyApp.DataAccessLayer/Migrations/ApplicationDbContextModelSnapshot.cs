@@ -62,39 +62,6 @@ namespace MyApp.DataAccessLayer.Migrations
                     b.ToTable("ImageUploads");
                 });
 
-            modelBuilder.Entity("MyApp.Models.Product", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("Products");
-                });
-
             modelBuilder.Entity("MyApp.Models.ProductDb", b =>
                 {
                     b.Property<int>("Id")
@@ -165,17 +132,6 @@ namespace MyApp.DataAccessLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Registrations");
-                });
-
-            modelBuilder.Entity("MyApp.Models.Product", b =>
-                {
-                    b.HasOne("MyApp.Models.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("MyApp.Models.ProductDb", b =>

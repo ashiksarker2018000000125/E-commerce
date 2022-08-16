@@ -13,3 +13,18 @@ C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp
 C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\refint\MyyApp.DataAccessLayer.dll
 C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.pdb
 C:\Users\Ashik\source\repos\MyApp\MyyApp.DataAccessLayer\obj\Debug\net6.0\ref\MyyApp.DataAccessLayer.dll
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyyApp.DataAccessLayer.deps.json
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyyApp.DataAccessLayer.dll
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyyApp.DataAccessLayer.pdb
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.Models.dll
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\bin\Debug\net6.0\MyApp.Models.pdb
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.csproj.AssemblyReference.cache
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.AssemblyInfoInputs.cache
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.AssemblyInfo.cs
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.csproj.CopyComplete
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.dll
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\refint\MyyApp.DataAccessLayer.dll
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\MyyApp.DataAccessLayer.pdb
+D:\asp.net core 6 project\E-commerce\MyyApp.DataAccessLayer\obj\Debug\net6.0\ref\MyyApp.DataAccessLayer.dll

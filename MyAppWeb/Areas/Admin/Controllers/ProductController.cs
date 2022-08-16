@@ -24,7 +24,7 @@ namespace MyAppWeb.Areas.Admin.Controllers
         #region APICALL
         public IActionResult AllProducts()
         {
-            IEnumerable <ProductDb> products = _unitofwork.ProductDb.GetAll();
+            IEnumerable<ProductDb> products = _unitofwork.ProductDb.GetAll(includeProperties:"Category");
             return Json(new { data = products });
 
         }
@@ -83,6 +83,16 @@ namespace MyAppWeb.Areas.Admin.Controllers
                     string uploadDir = Path.Combine(_hostEnvironment.WebRootPath, "ProductImage");
                     filename = Guid.NewGuid().ToString() + "-" + file.FileName;
                     string filePath = Path.Combine(uploadDir,filename);
+
+                    if(vm.ProductDb.ImageUrl != null)
+                    {
+                        var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, vm.ProductDb.ImageUrl.TrimStart('\\'));
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
+
                     using (var fileStream = new FileStream(filePath,FileMode.Create))
                     {
                         file.CopyTo(fileStream);
@@ -91,9 +101,14 @@ namespace MyAppWeb.Areas.Admin.Controllers
 
                 }
 
-                if ( vm.ProductDb.Id == 0)
+                if ( vm.ProductDb.Id == 0)//Edit er somoy id==0 ashe ..Edit process
                 {
                     _unitofwork.ProductDb.Add(vm.ProductDb);
+                    _unitofwork.save();
+                }
+                else //Update er somoy id!=0 ashe ..Update process
+                {
+                    _unitofwork.ProductDb.Update(vm.ProductDb);
                     _unitofwork.save();
                 }
                 

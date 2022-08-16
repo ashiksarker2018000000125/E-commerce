@@ -7,7 +7,7 @@
 <div class="container p-4">
     <div class="row p-3">
         <div class="col-6 text-primary">
-            <h2>Categories</h2>
+            <h2>Products</h2>
         </div>
         <div class="col-6 text-end">
             <a  class="btn btn-info" asp-controller="Product" asp-action="CreateUpdate"> <i class="bi bi-plus-circle"></i> &nbsp; Create New Product</a>
@@ -15,32 +15,34 @@
 
     </div>
 
-</div>
+</div> 
 
-<table class="table table-bordered table-striped " style="width:100%;">
+<table id="myTable" class="table table-bordered table-striped" width="100%">
     <thead>
         <tr>
-            <th>Product Name </th>
-            <th>Product Description</th>
-            <th>Price</th>
-            <th>Category</th>
-            <th class="text-center">Action</th>
+            <th width="20%">Product Name </th>
+            <th width="40%">Product Description</th>
+            <th width="10%">Price</th>
+            <th width="10%">Category</th>
+            <th width="20%" class="text-center">Action</th>
         </tr>
     </thead>
-    <tbody>
+    @*<tbody>
         @foreach(var item in Model){
         <tr>
-            <td>@item.Name</td>
-            <td>@item.Description</td>
-            <td>@item.Price</td>
-            <td>@item.CategoryId</td>
-            <td class="text-center">
+            <td width="20%">@item.Name</td>
+            <td width="40%">@item.Description</td>
+            <td width="10%">@item.Price</td>
+            <td width="10%">@item.CategoryId</td>
+            <td width="20%" class="text-center">
                 <a asp-controller="Product" asp-action="CreateUpdate" asp-route-id="@item.Id" class="btn btn-info"><i class="bi bi-pencil-square"></i>  Edit</a> &nbsp;
                 <a  asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id" type="submit" class="btn btn-danger "><i class="bi bi-trash"></i>  Delete</a>
             </td>
         </tr>
         }
-    </tbody>
+    </tbody>*@
 </table>
 
-
+@section scripts{
+    <script src="~/js/Product.js"></script>
+}

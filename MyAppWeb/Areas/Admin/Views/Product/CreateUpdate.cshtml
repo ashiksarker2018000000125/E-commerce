@@ -3,6 +3,10 @@
     ViewData["Title"] = ((Model.ProductDb==null || Model.ProductDb.Id==0) ? "Create":"Update" );
 }
 <form method="post" enctype="multipart/form-data">
+
+    <input type="hidden" asp-for="ProductDb.Id"/>
+    <input type="hidden" asp-for="ProductDb.ImageUrl"/>
+
     <div class="border p-3 mt-4">
         <div class="row pb-3">
             <h2 class="text-primary"> @((Model.ProductDb==null || Model.ProductDb.Id==0) ? "Create":"Update" ) Product</h2>

@@ -10,3 +10,15 @@ C:\Users\Ashik\source\repos\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.dll
 C:\Users\Ashik\source\repos\MyApp\MyApp.Models\obj\Debug\net6.0\refint\MyApp.Models.dll
 C:\Users\Ashik\source\repos\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.pdb
 C:\Users\Ashik\source\repos\MyApp\MyApp.Models\obj\Debug\net6.0\ref\MyApp.Models.dll
+D:\asp.net core 6 project\E-commerce\MyApp.Models\bin\Debug\net6.0\MyApp.Models.deps.json
+D:\asp.net core 6 project\E-commerce\MyApp.Models\bin\Debug\net6.0\MyApp.Models.dll
+D:\asp.net core 6 project\E-commerce\MyApp.Models\bin\Debug\net6.0\MyApp.Models.pdb
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.csproj.AssemblyReference.cache
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfoInputs.cache
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfo.cs
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.csproj.CoreCompileInputs.cache
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.dll
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\refint\MyApp.Models.dll
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.pdb
+D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\ref\MyApp.Models.dll
