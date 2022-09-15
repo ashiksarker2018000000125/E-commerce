@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MyApp.Models;
 
 namespace MyyApp.DataAccessLayer.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -11,9 +12,9 @@ namespace MyyApp.DataAccessLayer.Data
 
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<ImageUpload> ImageUploads { get; set; }
-        public DbSet<Registration> Registrations { get; set; }
         public DbSet<ProductDb> ProductDbs { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 
 }

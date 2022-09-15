@@ -4,27 +4,37 @@ using MyApp.Models.ViewModels;
 using MyyApp.DataAccessLayer.Data;
 using MyyApp.DataAccessLayer.Infrastructure.IRepository;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using AspNetCoreHero.ToastNotification.Abstractions;
 
 namespace MyAppWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
     {
-        private IUnitOfWork _unitofwork;
-        private ApplicationDbContext _context;
-        private IWebHostEnvironment _hostEnvironment;
+        private readonly ApplicationDbContext _context;
+        private readonly IUnitOfWork _unitofwork;
+        private readonly IWebHostEnvironment _hostEnvironment;
+        private readonly INotyfService _notyf;
 
-        public ProductController(IUnitOfWork unitofwork, ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
+        public ProductController(
+            IUnitOfWork unitofwork,
+            IWebHostEnvironment hostEnvironment,
+            INotyfService notyf,
+            ApplicationDbContext context
+            )
         {
             _unitofwork = unitofwork;
-            _context = context;
             _hostEnvironment = hostEnvironment;
+            _notyf = notyf;
+            _context = context;
         }
 
         #region APICALL
         public IActionResult AllProducts()
         {
             IEnumerable<ProductDb> products = _unitofwork.ProductDb.GetAll(includeProperties:"Category");
+            //var x = _context.ProductDbs.Include(x => x.Category);
             return Json(new { data = products });
 
         }
@@ -32,7 +42,7 @@ namespace MyAppWeb.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<ProductDb> products = _context.ProductDbs;
+            IEnumerable<ProductDb> products = _unitofwork.ProductDb.GetAll();
             return View(products);
         }
 
@@ -101,15 +111,17 @@ namespace MyAppWeb.Areas.Admin.Controllers
 
                 }
 
-                if ( vm.ProductDb.Id == 0)//Edit er somoy id==0 ashe ..Edit process
+                if ( vm.ProductDb.Id == 0)//Create er somoy id==0 ashe ..Create process
                 {
                     _unitofwork.ProductDb.Add(vm.ProductDb);
                     _unitofwork.save();
+                    _notyf.Success("Product Carate successfully");
                 }
                 else //Update er somoy id!=0 ashe ..Update process
                 {
                     _unitofwork.ProductDb.Update(vm.ProductDb);
                     _unitofwork.save();
+                    _notyf.Success("Product Update successfully");
                 }
                 
                 return RedirectToAction("Index");
@@ -121,25 +133,60 @@ namespace MyAppWeb.Areas.Admin.Controllers
         }
 
 
+        //use for delete 
+
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id==null || id == 0)
+        //    {
+        //        return NotFound();
+        //    }
+        //    var deletecheck = _unitofwork.ProductDb.GetT(x => x.Id == id);
+        //    if(deletecheck != null )
+        //    {
+        //        _unitofwork.ProductDb.Delete(deletecheck);
+        //        _unitofwork.save();
+        //        return RedirectToAction("Index", "Product");
+
+        //    }
+        //    else
+        //    {
+        //        return NotFound();
+        //    }
+
+        //}
+
+
+        #region APICALL DELETE
+        [HttpDelete]
         public IActionResult Delete(int? id)
         {
-            if (id==null || id == 0)
-            {
-                return NotFound();
-            }
+           
             var deletecheck = _unitofwork.ProductDb.GetT(x => x.Id == id);
-            if(deletecheck != null )
+            if (deletecheck == null)
             {
-                _unitofwork.ProductDb.Delete(deletecheck);
-                _unitofwork.save();
-                return RedirectToAction("Index", "Product");
+                _notyf.Error("Error in fetching data");
+                return Json(new {success=false});
 
             }
             else
             {
-                return NotFound();
+                if (deletecheck.ImageUrl != null)
+                {
+                    var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, deletecheck.ImageUrl.TrimStart('\\'));
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+                }
+
+                _unitofwork.ProductDb.Delete(deletecheck);
+                _unitofwork.save();
+                _notyf.Success("delete Successfully");
+                return Json(new { success = true });
             }
-            
+
         }
+        #endregion
     }
 }

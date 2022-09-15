@@ -22,3 +22,15 @@ D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.
 D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\refint\MyApp.Models.dll
 D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.pdb
 D:\asp.net core 6 project\E-commerce\MyApp.Models\obj\Debug\net6.0\ref\MyApp.Models.dll
+D:\ASP.Net\E-commerce\MyApp.Models\bin\Debug\net6.0\MyApp.Models.deps.json
+D:\ASP.Net\E-commerce\MyApp.Models\bin\Debug\net6.0\MyApp.Models.dll
+D:\ASP.Net\E-commerce\MyApp.Models\bin\Debug\net6.0\MyApp.Models.pdb
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.csproj.AssemblyReference.cache
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfoInputs.cache
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfo.cs
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.csproj.CoreCompileInputs.cache
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.dll
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\refint\MyApp.Models.dll
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\MyApp.Models.pdb
+D:\ASP.Net\E-commerce\MyApp.Models\obj\Debug\net6.0\ref\MyApp.Models.dll

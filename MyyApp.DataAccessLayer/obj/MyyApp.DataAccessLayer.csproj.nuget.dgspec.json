@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\asp.net core 6 project\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {}
+    "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\asp.net core 6 project\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
+    "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp.net core 6 project\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
         "projectName": "MyApp.Models",
-        "projectPath": "D:\\asp.net core 6 project\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\asp.net core 6 project\\E-commerce\\MyApp.Models\\obj\\",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
+        "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -64,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\asp.net core 6 project\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {
+    "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp.net core 6 project\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
         "projectName": "MyyApp.DataAccessLayer",
-        "projectPath": "D:\\asp.net core 6 project\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\asp.net core 6 project\\E-commerce\\MyyApp.DataAccessLayer\\obj\\",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\asp.net core 6 project\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
-                "projectPath": "D:\\asp.net core 6 project\\E-commerce\\MyApp.Models\\MyApp.Models.csproj"
+              "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
+                "projectPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj"
               }
             }
           }
@@ -108,17 +112,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.8, )"
             }
           },
           "imports": [
@@ -136,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

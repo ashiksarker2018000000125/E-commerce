@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Mvc;
 using MyApp.Models;
 using MyApp.Models.ViewModels;
 using MyyApp.DataAccessLayer.Data;
@@ -10,11 +11,14 @@ namespace MyAppWeb.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private IUnitOfWork _unitofwork;
+        private readonly INotyfService _notyf;
 
 
-        public CategoryController(IUnitOfWork unitOfWork)
+
+        public CategoryController(IUnitOfWork unitOfWork, INotyfService notyf)
         {
             _unitofwork = unitOfWork;
+            _notyf = notyf;
         }
 
         public IActionResult Index()
@@ -76,14 +80,16 @@ namespace MyAppWeb.Areas.Admin.Controllers
                 {
                     _unitofwork.Category.Add(vm.Category);
                     _unitofwork.save();
-                    TempData["success"] = "Category Create Successfully";
+                    _notyf.Success("Category Create Successfully");
+                    //TempData["success"] = "Category Create Successfully";
                     return RedirectToAction("Index");
                 }
                 else
                 {
                     _unitofwork.Category.Update(vm.Category);
                     _unitofwork.save();
-                    TempData["success"] = "Category Update Successfully";
+                    _notyf.Success("Category Update Successfully");
+                    //TempData["success"] = "Category Update Successfully";
                     return RedirectToAction("Index");
 
                 }
@@ -109,7 +115,8 @@ namespace MyAppWeb.Areas.Admin.Controllers
             }
             _unitofwork.Category.Delete(category);
             _unitofwork.save();
-            TempData["success"] = "Category Delete Successfully";
+            _notyf.Success("Category Delete Successfully");
+            //TempData["success"] = "Category Delete Successfully";
 
 
             return RedirectToAction("Index");

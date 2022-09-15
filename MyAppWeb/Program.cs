@@ -1,7 +1,10 @@
+using AspNetCoreHero.ToastNotification;
+using AspNetCoreHero.ToastNotification.Extensions;
 using Microsoft.EntityFrameworkCore;
 using MyyApp.DataAccessLayer.Data;
 using MyyApp.DataAccessLayer.Infrastructure.IRepository;
 using MyyApp.DataAccessLayer.Infrastructure.Repository;
+using Microsoft.AspNetCore.Identity;
 
 
 
@@ -16,7 +19,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddSession();
+builder.Services.AddIdentity<IdentityUser,IdentityRole>(/*options => options.SignIn.RequireConfirmedAccount = true*/).AddDefaultTokenProviders()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+builder.Services.AddRazorPages();
+
+//for tostar notification
+builder.Services.AddNotyf(config => { config.DurationInSeconds = 10; config.IsDismissable = true; config.Position = NotyfPosition.BottomRight; });
+
+
+//---
+
 
 var app = builder.Build();
 
@@ -32,27 +46,25 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
-app.UseSession();
-
-
+app.UseNotyf();
+app.MapRazorPages();
 
 app.UseEndpoints(endpoints => {
-    endpoints.MapControllerRoute(
-                name: "Customer",
-                pattern: "{area:exists}/{controller=Customer}/{action=Index}/{id?}");
+    //endpoints.MapControllerRoute(
+    //            name: "Customer",
+    //            pattern: "{area:exists}/{controller=Customer}/{action=Index}/{id?}");
     endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=ImageUploads}/{action=Index}/{id?}");
+                pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 });
 
-
-////app.MapControllerRoute(
-////    name: "admin",
-////    pattern: "{area}/{controller}/{action}/{id?}",
-////    defaults: new { Area="Admin", controller = "Category", action = "Index" });
-
+//app.MapControllerRoute(
+//    name: "Customer",
+//    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}"
+//   );
 //app.MapControllerRoute(
 //    name: "customer",
 //    pattern: "{area}/{controller}/{action}/{id?}");
