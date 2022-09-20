@@ -1,4 +1,5 @@
 ﻿using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyApp.Models;
 using MyApp.Models.ViewModels;
@@ -8,6 +9,7 @@ using MyyApp.DataAccessLayer.Infrastructure.IRepository;
 namespace MyAppWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         private IUnitOfWork _unitofwork;

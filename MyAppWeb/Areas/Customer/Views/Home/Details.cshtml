@@ -1,0 +1,66 @@
+﻿@model MyApp.Models.ViewModels.Cart;
+@{
+    ViewData["Title"] = "Product Details";
+}
+<style>
+         .product_view .modal-dialog{max-width: 800px; width: 100%;}
+        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+        .space-ten{padding: 10px 0;}
+</style>
+<div>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+            </div>
+            <div class="modal-body py-5">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="@Model.ProductDb.ImageUrl" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>@Model.ProductDb.Name</h4>
+                        <p>@Model.ProductDb.Description</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span>Price : @Model.ProductDb.Price </h3>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">Color</option>
+                                    <option value="black">Black</option>
+                                    <option value="white">White</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="rose gold">Rose Gold</option>
+                                </select>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <select class="form-control" name="select">
+                                    <option value="">Capacity</option>
+                                    <option value="">16GB</option>
+                                    <option value="">32GB</option>
+                                    <option value="">64GB</option>
+                                    <option value="">128GB</option>
+                                </select>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-12">
+                                <select class="form-control" name="select">
+                                    <option value="" selected="">QTY</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

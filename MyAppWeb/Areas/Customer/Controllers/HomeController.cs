@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyApp.Models;
+using MyApp.Models.ViewModels;
 using MyyApp.DataAccessLayer.Data;
 using MyyApp.DataAccessLayer.Infrastructure.IRepository;
 using System.Diagnostics;
@@ -28,6 +29,15 @@ namespace MyAppWeb.Areas.Customer.Controllers
         {
             IEnumerable<ProductDb> products = _unitofwork.ProductDb.GetAll();
             return View(products);
+        }
+
+        public IActionResult Details(int? id)
+        {
+            Cart cart = new Cart() { 
+                ProductDb = _unitofwork.ProductDb.GetT(x=> x.Id==id, includeProperties:"Category"),
+                Count =1
+            };
+            return View(cart);
         }
 
         public IActionResult Privacy()

@@ -558,7 +558,8 @@ D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.Build.dll
+D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.Build.Framework.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -593,6 +594,7 @@ D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -794,7 +796,9 @@ D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\MyApp.Models.dll
+D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\MyAppCommonHelper.dll
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\MyyApp.DataAccessLayer.dll
+D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\MyAppCommonHelper.pdb
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\MyyApp.DataAccessLayer.pdb
 D:\ASP.Net\E-commerce\MyAppWeb\bin\Debug\net6.0\MyApp.Models.pdb
 D:\ASP.Net\E-commerce\MyAppWeb\obj\Debug\net6.0\MyAppWeb.csproj.AssemblyReference.cache

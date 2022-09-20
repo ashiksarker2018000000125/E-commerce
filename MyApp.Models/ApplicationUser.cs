@@ -19,7 +19,7 @@ namespace MyApp.Models
         public string LastName { get; set; }
 
         [DisplayName("Address")]
-        public string? Address { get; set; }
+        public string Address { get; set; }
 
         [DisplayName("Date of birth")]
         [DataType(DataType.Date)]

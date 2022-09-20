@@ -185,7 +185,7 @@ h2::after {
                                     <div class="thumb-wrapper">
                                         @*<span class="wish-icon"><i class="fa fa-heart-o"></i></span>*@
                                         <div class="img-box">
-                                            <a href="#"><img src="@item.ImageUrl" class="img-responsive" alt=""></a> 
+                                            <a asp-action="Details" asp-controller="Home" asp-area="Customer" asp-route-id="@item.Id"><img src="@item.ImageUrl" class="img-responsive" alt=""></a> 
                                         </div>
                                         <div class="thumb-content">
                                             <h4>@item.Name</h4>

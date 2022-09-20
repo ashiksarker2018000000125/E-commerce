@@ -5,8 +5,8 @@ using MyyApp.DataAccessLayer.Data;
 using MyyApp.DataAccessLayer.Infrastructure.IRepository;
 using MyyApp.DataAccessLayer.Infrastructure.Repository;
 using Microsoft.AspNetCore.Identity;
-
-
+using Microsoft.AspNetCore.Identity.UI.Services;
+using MyAppCommonHelper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +21,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddIdentity<IdentityUser,IdentityRole>(/*options => options.SignIn.RequireConfirmedAccount = true*/).AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 
 builder.Services.AddRazorPages();
