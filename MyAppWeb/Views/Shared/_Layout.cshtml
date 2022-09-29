@@ -41,6 +41,10 @@
             <a class="dropdown-item" href="#">Separated link</a>
           </div>
         </li>*@
+        <li>
+            @await Component.InvokeAsync("Category")
+        </li>
+        
         @if (this.User.IsInRole("Admin"))
         {
             <li class="nav-item">
