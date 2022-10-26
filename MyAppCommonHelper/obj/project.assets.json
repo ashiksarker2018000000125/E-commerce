@@ -723,11 +723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
+      "projectUniqueName": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
       "projectName": "MyAppCommonHelper",
-      "projectPath": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
+      "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
       "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\obj\\",
+      "outputPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -189,8 +189,8 @@ h2::after {
                                         </div>
                                         <div class="thumb-content">
                                             <h4>@item.Name</h4>
-                                            <p class="item-price">Price : <b>@item.Price</b></p>
-                                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            <p class="item-price">Price : <b>@item.Price &#2547 </b></p>
+                                            <a asp-action="AddToShopingCart" asp-controller="Home" asp-area="Customer" asp-route-productid="@item.Id" class="btn btn-primary" >Add to Cart</a>
                                         </div>
                                     </div>
                                 </div>

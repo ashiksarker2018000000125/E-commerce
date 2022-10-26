@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.Net\\E-commerce\\MyAppWeb\\MyAppWeb.csproj": {}
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\MyAppWeb.csproj": {}
   },
   "projects": {
-    "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
         "projectName": "MyApp.Models",
-        "projectPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
         "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\obj\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj": {
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
         "projectName": "MyAppCommonHelper",
-        "projectPath": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
         "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\obj\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -132,14 +132,14 @@
         }
       }
     },
-    "D:\\ASP.Net\\E-commerce\\MyAppWeb\\MyAppWeb.csproj": {
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\MyAppWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\MyAppWeb.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\MyAppWeb.csproj",
         "projectName": "MyAppWeb",
-        "projectPath": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\MyAppWeb.csproj",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\MyAppWeb.csproj",
         "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,11 +156,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj": {
-                "projectPath": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj"
+              "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj": {
+                "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj"
               },
-              "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {
-                "projectPath": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj"
+              "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {
+                "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj"
               }
             }
           }
@@ -224,14 +224,14 @@
         }
       }
     },
-    "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
         "projectName": "MyyApp.DataAccessLayer",
-        "projectPath": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\obj\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -248,8 +248,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
-                "projectPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj"
+              "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
+                "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj"
               }
             }
           }

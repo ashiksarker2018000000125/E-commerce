@@ -15,6 +15,8 @@ namespace MyyApp.DataAccessLayer.Data
         public DbSet<ProductDb> ProductDbs { get; set; }
 
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
     }
 
 }

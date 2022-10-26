@@ -21,7 +21,8 @@
                     <div class="col-md-6 product_content">
                         <h4>@Model.ProductDb.Name</h4>
                         <p>@Model.ProductDb.Description</p>
-                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span>Price : @Model.ProductDb.Price </h3>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span>Price : @Model.ProductDb.Price  &#2547</h3>
+                        <br />
                         <div class="row">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <select class="form-control" name="select">
@@ -55,7 +56,7 @@
                         </div>
                         <div class="space-ten"></div>
                         <div class="btn-ground">
-                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                            <a asp-action="AddToShopingCart" asp-controller="Home" asp-area="Customer" asp-route-productid="@Model.ProductDb.Id" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart" ></span> Add To Cart</a>
                             <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
                         </div>
                     </div>

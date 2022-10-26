@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e9H/eyVHqMzgGI3zgbmk+fCzluOVx9k10MIIIBKXq8yd5iMDnwsmMheirJBVXLDfBtNscNqZoThYr0bvrxx/8g==",
+  "dgSpecHash": "F+HYd0GYaJxNkRarPqnc6w7OJ/4KNYEGY01T978DtWtJdTbhxtmo63rf9SrxTLgT5hJfdLksMv2KCb3UWVPH3g==",
   "success": true,
-  "projectFilePath": "D:\\ASP.Net\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
+  "projectFilePath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyyApp.DataAccessLayer\\MyyApp.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ashik\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Ashik\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

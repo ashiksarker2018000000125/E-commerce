@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "unNPOivAghYtFGTVtmTLxsTK9wb47r43P16ZSj3koEP+XQlFQgftnK2ZegXIZV544hAujaEL58zF3JOKJZZzDQ==",
+  "dgSpecHash": "dSrJ6CEG092WB7nDUOdlf9o2/bpqMSU9n+L7VAXNa8ye7/RRkbWD3DvQxTC1+wj8RMXoRUH7wAEgLF6Q71RWNQ==",
   "success": true,
-  "projectFilePath": "D:\\ASP.Net\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
+  "projectFilePath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppCommonHelper\\MyAppCommonHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ashik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.9\\microsoft.aspnetcore.cryptography.internal.6.0.9.nupkg.sha512",
     "C:\\Users\\Ashik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.9\\microsoft.aspnetcore.cryptography.keyderivation.6.0.9.nupkg.sha512",

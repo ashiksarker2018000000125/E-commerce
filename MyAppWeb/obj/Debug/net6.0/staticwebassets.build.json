@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5ZA1n2D5OSSN1h3yj2SoyuOogGGl0tlLS2yYNPVyDIM=",
+  "Hash": "/Zlmt6xm7btR3f5v+COk6e65R0ACsofl9HfVvgbqHqw=",
   "Source": "MyAppWeb",
   "BasePath": "_content/MyAppWeb",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "MyAppWeb\\wwwroot",
       "Source": "MyAppWeb",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "Pattern": "**"
     }
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "C:\\Users\\Ashik\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyAppWeb.styles.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyAppWeb.styles.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "MyAppWeb.styles.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyAppWeb.styles.css"
+      "OriginalItemSpec": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyAppWeb.styles.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAppWeb.bundle.scp.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAppWeb.bundle.scp.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "MyAppWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAppWeb.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyAppWeb.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\css\\site.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\css\\SuperherobootswatchTheme.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\css\\SuperherobootswatchTheme.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "css/SuperherobootswatchTheme.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\SuperherobootswatchTheme.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\favicon.ico",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\Image\\lab-final221537055.png",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\Image\\lab-final221537055.png",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "Image/lab-final221537055.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Image\\lab-final221537055.png"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\js\\Product.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\js\\Product.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "js/Product.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Product.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\js\\site.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,12 +1190,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\0e879bf2-1855-4a92-bc68-a80b51babac9-Xiaomi-12-Pro.jpg",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\069445b2-53c4-4325-9df5-8ffb42995df9-samsung-galaxy-note10-plus-aura-black.jpg",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
-      "RelativePath": "ProductImage/0e879bf2-1855-4a92-bc68-a80b51babac9-Xiaomi-12-Pro.jpg",
+      "RelativePath": "ProductImage/069445b2-53c4-4325-9df5-8ffb42995df9-samsung-galaxy-note10-plus-aura-black.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ProductImage\\0e879bf2-1855-4a92-bc68-a80b51babac9-Xiaomi-12-Pro.jpg"
+      "OriginalItemSpec": "wwwroot\\ProductImage\\069445b2-53c4-4325-9df5-8ffb42995df9-samsung-galaxy-note10-plus-aura-black.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\74dbbd55-37a2-4f8c-adaa-9d39a7e3c93f-Xiaomi-12-Pro.jpg",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\1735b683-3ed0-4c76-9d52-0fbaff32c5d9-Samsung-Galaxy-A23-5G-Black.jpg",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
-      "RelativePath": "ProductImage/74dbbd55-37a2-4f8c-adaa-9d39a7e3c93f-Xiaomi-12-Pro.jpg",
+      "RelativePath": "ProductImage/1735b683-3ed0-4c76-9d52-0fbaff32c5d9-Samsung-Galaxy-A23-5G-Black.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ProductImage\\74dbbd55-37a2-4f8c-adaa-9d39a7e3c93f-Xiaomi-12-Pro.jpg"
+      "OriginalItemSpec": "wwwroot\\ProductImage\\1735b683-3ed0-4c76-9d52-0fbaff32c5d9-Samsung-Galaxy-A23-5G-Black.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\76b4019b-e191-4cdd-a564-96ca5a521a5f-samsung-galaxy-note10.jpg",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\1b9295a5-418a-4068-9aed-9a0b67d1ddb1-men-shirt.jpg",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
-      "RelativePath": "ProductImage/76b4019b-e191-4cdd-a564-96ca5a521a5f-samsung-galaxy-note10.jpg",
+      "RelativePath": "ProductImage/1b9295a5-418a-4068-9aed-9a0b67d1ddb1-men-shirt.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ProductImage\\76b4019b-e191-4cdd-a564-96ca5a521a5f-samsung-galaxy-note10.jpg"
+      "OriginalItemSpec": "wwwroot\\ProductImage\\1b9295a5-418a-4068-9aed-9a0b67d1ddb1-men-shirt.jpg"
     },
     {
-      "Identity": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\f00fb828-b141-4a91-a5cc-97cc9e25aeed-Apple-iPhone-13-Pro-Max-image.jpg",
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\35909995-6bdf-42eb-9555-8f0356d1f896-Xiaomi-Redmi-Note-11R-Grey.jpg",
       "SourceId": "MyAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.Net\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
       "BasePath": "_content/MyAppWeb",
-      "RelativePath": "ProductImage/f00fb828-b141-4a91-a5cc-97cc9e25aeed-Apple-iPhone-13-Pro-Max-image.jpg",
+      "RelativePath": "ProductImage/35909995-6bdf-42eb-9555-8f0356d1f896-Xiaomi-Redmi-Note-11R-Grey.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,7 +1255,126 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ProductImage\\f00fb828-b141-4a91-a5cc-97cc9e25aeed-Apple-iPhone-13-Pro-Max-image.jpg"
+      "OriginalItemSpec": "wwwroot\\ProductImage\\35909995-6bdf-42eb-9555-8f0356d1f896-Xiaomi-Redmi-Note-11R-Grey.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\3eb5952c-7c29-497d-943d-2ccc0918a076-Apple-iPhone-13-Pro-Max-image.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/3eb5952c-7c29-497d-943d-2ccc0918a076-Apple-iPhone-13-Pro-Max-image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\3eb5952c-7c29-497d-943d-2ccc0918a076-Apple-iPhone-13-Pro-Max-image.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\5ade1970-cc59-454f-9f9b-dba45356203f-samsung-galaxy-note10-plus-aura-black.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/5ade1970-cc59-454f-9f9b-dba45356203f-samsung-galaxy-note10-plus-aura-black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\5ade1970-cc59-454f-9f9b-dba45356203f-samsung-galaxy-note10-plus-aura-black.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\656d4437-a24e-4faa-bd4e-579260c42b07-Apple-iPhone-14-Pro-Max-Silver.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/656d4437-a24e-4faa-bd4e-579260c42b07-Apple-iPhone-14-Pro-Max-Silver.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\656d4437-a24e-4faa-bd4e-579260c42b07-Apple-iPhone-14-Pro-Max-Silver.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\7c30b28d-4bea-41eb-9500-d05f82d415bd-Xiaomi-12-Pro.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/7c30b28d-4bea-41eb-9500-d05f82d415bd-Xiaomi-12-Pro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\7c30b28d-4bea-41eb-9500-d05f82d415bd-Xiaomi-12-Pro.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\8b04cff6-4d20-475a-98ac-52b00d676a45-Oppo-Reno8-Pro-5G-Encounter-Blue.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/8b04cff6-4d20-475a-98ac-52b00d676a45-Oppo-Reno8-Pro-5G-Encounter-Blue.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\8b04cff6-4d20-475a-98ac-52b00d676a45-Oppo-Reno8-Pro-5G-Encounter-Blue.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\ae5a749c-27e0-4ba6-be5d-a253fd8b975d-Huawei-Nova-10-Pro-Green.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/ae5a749c-27e0-4ba6-be5d-a253fd8b975d-Huawei-Nova-10-Pro-Green.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\ae5a749c-27e0-4ba6-be5d-a253fd8b975d-Huawei-Nova-10-Pro-Green.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\ProductImage\\b923ae60-22df-48fb-b029-80788af30d97-Xiaomi-12-Pro.jpg",
+      "SourceId": "MyAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyAppWeb\\wwwroot\\",
+      "BasePath": "_content/MyAppWeb",
+      "RelativePath": "ProductImage/b923ae60-22df-48fb-b029-80788af30d97-Xiaomi-12-Pro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImage\\b923ae60-22df-48fb-b029-80788af30d97-Xiaomi-12-Pro.jpg"
     }
   ]
 }

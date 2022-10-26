@@ -10,3 +10,15 @@ D:\ASP.Net\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.dll
 D:\ASP.Net\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\refint\MyAppCommonHelper.dll
 D:\ASP.Net\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.pdb
 D:\ASP.Net\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\ref\MyAppCommonHelper.dll
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\bin\Debug\net6.0\MyAppCommonHelper.deps.json
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\bin\Debug\net6.0\MyAppCommonHelper.dll
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\bin\Debug\net6.0\MyAppCommonHelper.pdb
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.csproj.AssemblyReference.cache
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.AssemblyInfoInputs.cache
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.AssemblyInfo.cs
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.csproj.CoreCompileInputs.cache
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.dll
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\refint\MyAppCommonHelper.dll
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\MyAppCommonHelper.pdb
+D:\ASP.Net\E-commerce\E-commerce\MyAppCommonHelper\obj\Debug\net6.0\ref\MyAppCommonHelper.dll

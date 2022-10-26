@@ -57,6 +57,7 @@ namespace MyAppWeb.Areas.Admin.Controllers
             CategoryVM vm = new CategoryVM();
             if (id == null || id == 0)
             {
+                ViewBag.CategoryId = false;
                 return View(vm);
             }
            
@@ -68,6 +69,7 @@ namespace MyAppWeb.Areas.Admin.Controllers
             }
             else
             {
+                ViewBag.CategoryId = true;
                 return View(vm);
             }
         }
@@ -78,7 +80,7 @@ namespace MyAppWeb.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (vm.Category == null || vm.Category.Id == 0)
+                if ( vm.Category.Id == 0)
                 {
                     _unitofwork.Category.Add(vm.Category);
                     _unitofwork.save();

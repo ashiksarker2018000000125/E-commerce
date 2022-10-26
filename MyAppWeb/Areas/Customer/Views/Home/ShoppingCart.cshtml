@@ -1,0 +1,141 @@
+﻿@model List<MyApp.Models.ProductDb>
+@{
+    var data = ViewBag.Product;
+}
+
+<style type="text/css">
+    body{
+    background-color: #eeeeee;
+}
+
+.footer-background{
+    background-color: rgb(204, 199, 199);
+}
+
+
+    #heading{
+        padding-left: 50px;
+    }
+    #prc{
+        margin-left: 70px;
+        padding-left: 110px;
+    }
+    #quantity{
+        padding-left: 48px;
+    }
+    #produc{
+        padding-left: 40px;
+    }
+    #total{
+        padding-left: 54px;
+    }
+
+
+    .mobile{
+        font-size: 10px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 9px;
+    }
+    #mobile-font{
+        font-size: 11px;
+    }
+    #prc{
+        font-weight: 700;
+        margin-left: 58px;
+        padding-left: 105px;
+    }
+    #quantity{
+        font-weight: 700;
+        padding-left: 6px;
+    }
+    #produc{
+        font-weight: 300;
+        padding-left: 0px;
+    }
+    #total{
+        font-weight: 700;
+        padding-left: 9px;
+    }
+    #image{
+        width: 60px;
+        height: 60px;
+    }
+    .col{
+        width: 100%;
+    }
+    #zero-pad{
+        padding: 2%;
+        margin-left: 10px;
+    }
+    #footer-font{
+        font-size: 12px;
+    }
+    #heading{
+        padding-top: 15px;
+    }
+
+  </style>
+
+
+<div class="container bg-white rounded-top mt-5" id="zero-pad">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-10 col-12 pt-3">
+            
+            <div class="d-flex flex-row px-lg-5 mx-lg-5 mobile" id="heading">
+
+                <div class="px-lg-5 mr-lg-5" style="width:24%" ><h5>PRODUCTS</h5></div>
+                <div class="px-lg-5 ml-lg-5" style="width:21%" ><h5>PRICE</h5></div>
+                <div class="px-lg-5 ml-lg-1" style="width:28%; text-align:center" ><h5>QUANTITY</h5></div>
+                <div class="px-lg-5 ml-lg-3" style="width:27%; text-align:center" ><h5>TOTAL</h5></div>
+                
+                
+            </div>
+            <hr>
+            @{
+                double subtotalprice = 0;
+                int i = 0;
+
+                foreach(var product in Model ){
+                    <div class="d-flex flex-row justify-content-between align-items-center pt-lg-4 pt-2 pb-3 border-bottom mobile">
+                        <div class="d-flex flex-row align-items-center">
+                            <div><img src="@product.ImageUrl" width="150" height="150" alt="" id="image"></div>
+                            <div class="d-flex flex-column pl-md-3 pl-1">
+                                <div><h5> &nbsp; @product.Name </h5></div>
+                            </div>                    
+                        </div>
+                        <div class="pl-md-0 pl-1" style="text-align:center"><h5 style="text-align:center">@product.Price  &#2547 </h5></div>
+                        <div class="pl-md-0 pl-2">
+                            <a asp-action="DecreaseShoppingCartProductCount" asp-controller="Home" asp-area="Customer" asp-route-productid="@product.Id"><span class="fa fa-minus-square text-secondary"></span></a><span class="px-md-3 px-1">@data[i]</span> <a asp-action="IncreaseShoppingCartProductCount" asp-controller="Home" asp-area="Customer" asp-route-productid="@product.Id"><span class="fa fa-plus-square text-secondary"></span></a> 
+                        </div>
+                        <div class="pl-md-0 pl-1"><h5 style="text-align:center"> @(product.Price * data[i]) &#2547</h5></div>
+                        <h5><a asp-action="RemoveProductFromCart" asp-controller="Home" asp-area="Customer" asp-route-productid="@product.Id"><i class="bi bi-x-circle-fill"></i></a></h5> 
+                    </div>
+                subtotalprice += (product.Price * data[i]);
+                i++;
+                }
+            }
+            
+        </div>
+    </div>
+</div>
+<div class="container bg-light rounded-bottom py-4" id="zero-pad">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-10 col-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a class="btn btn-sm bg-light border border-dark" asp-action="Index" asp-controller="Home" asp-area="Customer">GO BACK</a>
+                </div>
+                <div class="px-md-0 px-1" id="footer-font">
+                    <h5 class="pl-md-4">SUBTOTAL<span class="pl-md-4">&nbsp; @subtotalprice &#2547 </span></h5>
+                </div>
+                <div>
+                    <button class="btn btn-sm bg-dark text-white px-lg-5 px-3">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

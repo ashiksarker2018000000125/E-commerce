@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {}
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {}
   },
   "projects": {
-    "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
+    "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
+        "projectUniqueName": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
         "projectName": "MyApp.Models",
-        "projectPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
+        "projectPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\MyApp.Models.csproj",
         "packagesPath": "C:\\Users\\Ashik\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.Net\\E-commerce\\MyApp.Models\\obj\\",
+        "outputPath": "D:\\ASP.Net\\E-commerce\\E-commerce\\MyApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ashik\\AppData\\Roaming\\NuGet\\NuGet.Config",
