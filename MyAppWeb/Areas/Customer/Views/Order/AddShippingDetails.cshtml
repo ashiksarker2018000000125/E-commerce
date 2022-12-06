@@ -1,0 +1,38 @@
+﻿@model OrderHeader
+<div class="row" style="margin-top:2%;margin-left:20%">
+    <div class="col-md-9">
+        <section>
+            <form method="post" >
+                <h2>Add Shipping Detais</h2>
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating" style="margin-bottom:1%">
+                    <input asp-for="Name" class="form-control" autocomplete="username" aria-required="true" />
+                    <label asp-for="Name" class="form-label"></label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-floating" style="margin-bottom:1%">
+                    <input asp-for="StreetAddress" class="form-control" autocomplete="username" aria-required="true" />
+                    <label asp-for="StreetAddress" class="form-label"></label>
+                    <span asp-validation-for="StreetAddress" class="text-danger"></span>
+                </div>
+                <div class="form-floating" style="margin-bottom:1%">
+                    <input asp-for="City" class="form-control" autocomplete="username" aria-required="true" />
+                    <label asp-for="City" class="form-label"></label>
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="form-floating" style="margin-bottom:1%">
+                    <input asp-for="PhoneNumber" class="form-control" autocomplete="username" aria-required="true" />
+                    <label asp-for="PhoneNumber" class="form-label"></label>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-md btn-info" style="margin-left:87%"> Payment</button>
+            </form>
+        </section>
+    </div>
+
+    @section scripts{
+        @{
+            <partial name="_ValidationScriptsPartial"></partial>
+        }
+    }

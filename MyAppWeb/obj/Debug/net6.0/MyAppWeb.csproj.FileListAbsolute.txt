@@ -1104,3 +1104,4 @@ D:\ASP.Net\E-commerce\E-commerce\MyAppWeb\obj\Debug\net6.0\refint\MyAppWeb.dll
 D:\ASP.Net\E-commerce\E-commerce\MyAppWeb\obj\Debug\net6.0\MyAppWeb.pdb
 D:\ASP.Net\E-commerce\E-commerce\MyAppWeb\obj\Debug\net6.0\MyAppWeb.genruntimeconfig.cache
 D:\ASP.Net\E-commerce\E-commerce\MyAppWeb\obj\Debug\net6.0\ref\MyAppWeb.dll
+D:\ASP.Net\E-commerce\E-commerce\MyAppWeb\bin\Debug\net6.0\Stripe.net.dll
