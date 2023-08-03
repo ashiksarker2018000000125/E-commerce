@@ -11,3 +11,6 @@
 ![image](https://github.com/ashiksarker2018000000125/E-commerce/blob/master/MyAppWeb/wwwroot/Image/Loginpage.PNG)
 ##
 ![image](https://github.com/ashiksarker2018000000125/E-commerce/blob/master/MyAppWeb/wwwroot/Image/regpage.PNG)
+##
+![image](##
+![image](https://github.com/ashiksarker2018000000125/E-commerce/blob/master/MyAppWeb/wwwroot/Image/regpage.PNG))
